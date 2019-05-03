@@ -42,7 +42,7 @@ ALPHABET = "abcdefghijklmnopqrstuvwxyz"
 
   def self.alphabetical
     @@all.sort_by do |name|
-      name.split("").map do |character|
+      name.map do |character|
         ALPHABET.index(character)
       end
     end
