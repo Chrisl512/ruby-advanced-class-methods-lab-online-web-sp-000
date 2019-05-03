@@ -50,7 +50,7 @@ class Song
     song.name = name
 
     song.artist_name = artist
-    song
+    song.gsub('[',']')
 
   end
 
