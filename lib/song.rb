@@ -43,8 +43,8 @@ class Song
   end
 
   def self.new_from_filename(file)
-    ary = file.split
-    ary.split_at("-")
+    ary = file.split('-')
+    
 binding.pry
   end
 
