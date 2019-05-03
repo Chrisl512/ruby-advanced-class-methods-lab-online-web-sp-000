@@ -46,6 +46,9 @@ class Song
     ary = file.split(' - ')
     artist = ary[0]
     name = ary[1].split('.mp3')
+    song = self.create
+    song.name = name
+    song.artist_name = artist
 
 binding.pry
   end
