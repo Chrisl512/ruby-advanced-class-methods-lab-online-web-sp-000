@@ -47,7 +47,7 @@ class Song
     artist = ary[0]
     name = ary[1].split('.mp3')
     song = self.new
-    song.name = name.to_s
+    song.name.to_s = name
     binding.pry
     song.artist_name = artist
     song
