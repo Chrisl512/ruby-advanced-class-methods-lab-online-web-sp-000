@@ -51,7 +51,7 @@ class Song
 
     song.artist_name = artist
     song
-
+binding.pry
   end
 
 end
