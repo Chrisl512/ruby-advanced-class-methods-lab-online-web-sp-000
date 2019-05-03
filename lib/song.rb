@@ -38,6 +38,8 @@ class Song
     self.find_by_name(name) || self.create_by_name(name)
   end
 
+ALPHABET = "abcdefghijklmnopqrstuvwxyz"
+
   def self.alphabetical
 
     @@all.sort_by do |name|
