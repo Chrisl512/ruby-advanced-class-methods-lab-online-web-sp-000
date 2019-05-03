@@ -46,6 +46,7 @@ class Song
     ary = file.split(' - ')
     artist = ary[0]
     name = ary[1]
+
     song = self.new
     song.name = name
 
