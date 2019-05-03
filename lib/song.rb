@@ -42,7 +42,9 @@ class Song
     ALPHABET = "abcdefghijklmnopqrstuvwxyz"
     @@all.sort_by do |name|
       name.split("").map do |character|
-        ALPHABET.index
+        ALPHABET.index(character)
+      end
+    end
   end
 
 end
