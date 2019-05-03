@@ -41,11 +41,7 @@ class Song
 ALPHABET = "abcdefghijklmnopqrstuvwxyz"
 
   def self.alphabetical
-    @@all.sort_by do |name|
-      name.map do |character|
-        ALPHABET.index(character)
-      end
-    end
+    @@all.sort_by{|song| song.name}
   end
 
 end
