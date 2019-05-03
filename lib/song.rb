@@ -43,7 +43,7 @@ class Song
   end
 
   def self.new_from_filename(file)
-    ary = file.gsub(/-|./).split
+    ary = file.gsub(/-|./)
     artist = ary[0]
     name = ary[1]
     song = self.new
