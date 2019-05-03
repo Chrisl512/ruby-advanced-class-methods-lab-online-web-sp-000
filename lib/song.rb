@@ -31,7 +31,7 @@ class Song
   end
 
   def self.find_by_name(name)
-    @@all.find{|nam| nam.name == name}
+    @@all.find{|n| n.name == name}
   end
 
   def self.find_or_create_by_name(name)
