@@ -47,7 +47,7 @@ class Song
     artist = ary[0]
     name = ary[1].split('.mp3')
     song = self.new
-    song.name = name.split('[', ']')
+    song.name = name
 
     song.artist_name = artist
     song
