@@ -43,7 +43,7 @@ class Song
   end
 
   def self.new_from_filename(file)
-    ary = file.split('-')
+    ary = file.split('-','.mp3')
 
 binding.pry
   end
